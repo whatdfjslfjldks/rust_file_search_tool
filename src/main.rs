@@ -1,7 +1,6 @@
 mod cli;
 mod dir;
 
-use std::io;
 fn main() {
     // 读取用户命令行输入
     let args = cli::reader::read();

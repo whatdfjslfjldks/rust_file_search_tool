@@ -21,8 +21,8 @@ struct Args {
     #[arg(short, long, default_value_t = false)]
     fuzzy: bool,
 
-    /// 非必选项，是否区分大小写，默认区分大小写
-    #[arg(short, long, default_value_t = true)]
+    /// 非必选项，是否区分大小写，默认不区分大小写
+    #[arg(short, long, default_value_t = false)]
     case_sensitive: bool,
 
     /// 非必选项，指定文件类型，可以指定多个文件类型，用逗号分隔
